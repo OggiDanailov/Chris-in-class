@@ -1,0 +1,38 @@
+/*Desktop First Media Queries*/
+
+/* Extra Wide Desktops*/
+@media all and (min-width: 1200px) {
+
+}
+
+/* Tablets and small desktop */
+@media all and (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+/* Phone in landscape mode, small tablet */
+@media all and (max-width: 767px) {
+
+}
+
+/* Smaller Phone, phone in portrait mode */
+@media all and (max-width: 480px) {
+
+}
+
+
+
+/* Mobile-First Media Queries */
+
+@media all and (min-width: 768px) {
+
+}
+
+@media all and (min-width: 992px) {
+
+}
+
+@media all and (min-width: 1200px) {
+
+}
+
