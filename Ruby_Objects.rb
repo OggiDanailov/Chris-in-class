@@ -74,3 +74,17 @@ end
 # tiger = Mammal.new("Tiger")
 
 # tiger.name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
