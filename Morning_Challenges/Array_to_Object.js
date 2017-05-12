@@ -32,4 +32,3 @@ var houseWordsObj = arrayToObj(houseWords);
 // Should return an object literal.
  wrap long lines
 
-Commenting in #legendary-wdi
