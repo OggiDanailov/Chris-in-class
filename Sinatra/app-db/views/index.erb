@@ -1,0 +1,29 @@
+<form action="/" method="get">
+	<!-- <input type="text" name="search" placeholder="Search here." /> -->
+	<select name="search">
+		<% @blogs.each do |blog| %>
+		<option value="<%=blog.category%>"><%= blog.category %></option>
+		<% end %>
+
+	</select>
+	<input type="submit" />
+</form>
+
+<% @blogs.each do |blog| %>
+
+<div><%= blog.title %></div>
+<div><%= blog.category %></div>
+<div><%= blog.content %></div>
+
+<% end %>
+
+
+<h2>Create a new Blog</h2>
+<div>
+	<form action="/new_blog" method="post">
+		<input type="text" name="title" placeholder="Title">
+		<input type="text" name="category" placeholder="Category">
+		<input type="text" name="content" placeholder="Content">
+		<input type="submit">
+	</form>
+</div>

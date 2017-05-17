@@ -1,0 +1,42 @@
+body {
+	color: #F7F7F7;
+	font-family: Times;
+}
+
+.bear-container {
+	background-image: url("bear.jpg");
+	background-size: 125% 100%;
+	background-position: center;
+	width: 400px;
+	height: 350px;
+}
+
+.bear {
+	background-color: rgba(66, 101, 163, .7);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.bear h2 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 28px;
+}
+
+.bear hr {
+	width: 40%;
+	color: #F7F7F7;
+}
+
+.learn-btn {
+	padding: 5px 10px;
+	color: #DD6C4E;
+	font-size: 22px;
+	background-color: #F7F7F7;
+	width: 120px;
+	margin: 60px auto 0;
+	border-style: outset;
+}
