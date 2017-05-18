@@ -1,0 +1,32 @@
+<h2><%= @blog.title %></h2>
+
+
+<div class="comments">
+
+	<% @blog.comments.each do |comment| %>
+		<div class="comment">
+			<%= comment.user.username %> says <%= comment.body %>
+		</div>
+	<% end %>
+
+</div>
+
+<% if session[:user_id] %>
+
+<div class="comment-form">
+	<form action="/comments" method="post">
+		<input type="text" name="body" />
+		<input type="submit">
+		<input type="hidden" name="blog_id" value="<%= @blog.id %>">
+	</form>
+</div>
+
+<% end  %>
+
+
+
+
+
+
+
+<!--  -->
