@@ -1,4 +1,4 @@
-require 'minitest/autorun'
+frequire 'minitest/autorun'
 require 'minitest/pride'
 
 # Write two methods:
