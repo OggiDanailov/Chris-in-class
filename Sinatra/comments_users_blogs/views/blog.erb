@@ -12,10 +12,11 @@
 </div>
 
 <% if session[:user_id] %>
+<%= session[:user_id] %>
 
 <div class="comment-form">
 	<form action="/comments" method="post">
-		<input type="text" name="body" />
+		<input type="text" name="body" placeholder='body' />
 		<input type="submit">
 		<input type="hidden" name="blog_id" value="<%= @blog.id %>">
 	</form>
