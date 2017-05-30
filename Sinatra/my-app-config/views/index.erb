@@ -1,0 +1,33 @@
+
+<% @blogs.each do |blog| %>
+
+<a href="/blog/<%= blog.id %>"><div><%= blog.title %></div></a>
+<div><%= blog.content %></div>
+
+<% end %>
+
+<h2>Create New Blog:</h2>
+<form action="/profile" method="post">
+	<input type="text" name="title" placeholder="Title">
+	<input type="text" name="content" placeholder="Content">
+	<input type="submit">
+</form>
+
+<h2>Update User Info:</h2>
+
+<form action="/profile" method="put">
+	<input type="text" name="[user]username" placeholder="username" value="<%= @current_user.username %>">
+	<input type="text" name="[user]password" placeholder="password" value="<%= @current_user.password %>">
+	<input type="submit">
+</form>
+
+
+<h2>DANGER: Delete Account</h2>
+<form action="/profile" method="delete">
+	<input type="submit" value="DESTROY." />
+</form>
+
+
+
+
+<!--  -->

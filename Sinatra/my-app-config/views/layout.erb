@@ -1,0 +1,13 @@
+<h1>My page</h1>
+<form action="/logout" method="post">
+	<input type="submit"value="Logout">
+</form>
+
+<div class="flash">
+	<%= flash[:notice] if flash[:notice] %>
+</div>
+
+
+<div class="">
+	<%= yield %>
+</div>
