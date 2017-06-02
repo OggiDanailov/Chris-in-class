@@ -1,0 +1,37 @@
+body {
+	background-color: teal;
+	color: salmon;
+	font-family: 'Futura';
+	font-size: 36px;
+}
+
+.error {
+	color: red;
+	text-transform: uppercase;
+}
+
+.success {
+	color: green;
+}
+
+.inactive {
+	color: grey;
+}
+
+.active {
+	color: goldenrod;
+}
+
+.header-container {
+	border:2px solid red;
+}
+
+.navigation ul {
+	list-style: none;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-left: 40px;
+	cursor: pointer;
+}
