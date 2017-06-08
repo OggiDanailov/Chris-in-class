@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 
-class NewDestination extends Component {
+class od extends Component {
 
 	constructor(props) {
 		super(props);
